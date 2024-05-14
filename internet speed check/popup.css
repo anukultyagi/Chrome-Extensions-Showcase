@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+#speed {
+  font-size: 18px;
+}
+
+#checkSpeedBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

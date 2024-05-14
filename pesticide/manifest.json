@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "pesticide",
+  "description": "css debugger",
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-64.png",
+      "128": "images/icon-128.png"
+    }
+  }
+}

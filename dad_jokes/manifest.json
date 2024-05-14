@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Dad jokes",
+  "description": "Extension for dad jokes",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/joking-16.png",
+    "32": "images/joking-32.png",
+    "64": "images/joking-64.png",
+    "128": "images/joking-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/joking-16.png",
+      "32": "images/joking-32.png",
+      "64": "images/joking-64.png",
+      "128": "images/joking-128.png"
+    }
+  },
+  "permissions": ["activeTab"]
+}
