@@ -3,8 +3,20 @@
   "name": "lorem ipsum generator",
   "description": "Extension for demo text generation",
   "version": "1.0.0",
+  "icons": {
+    "16": "images/lore-ipsum-16.png",
+    "32": "images/lore-ipsum-32.png",
+    "64": "images/lore-ipsum-64.png",
+    "128": "images/lore-ipsum-128.png"
+  },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/lore-ipsum-16.png",
+      "32": "images/lore-ipsum-32.png",
+      "64": "images/lore-ipsum-64.png",
+      "128": "images/lore-ipsum-128.png"
+    }
   },
   "permissions": ["activeTab"],
   "host_permissions": ["https://loripsum.net/*"]
