@@ -1,0 +1,30 @@
+{
+  "name": "Ad Blocker",
+  "manifest_version": 3,
+  "description": "A simple Add blocker",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/ad-blocker-16.png",
+    "32": "images/ad-blocker-32.png",
+    "64": "images/ad-blocker-64.png",
+    "128": "images/ad-blocker-128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/ad-blocker-16.png",
+      "32": "images/ad-blocker-32.png",
+      "48": "images/ad-blocker-64.png",
+      "128": "images/ad-blocker-128.png"
+    }
+  },
+  "permissions": ["declarativeNetRequest"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
